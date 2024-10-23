@@ -1,0 +1,159 @@
+<div class="cover-container">
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Game Ideas</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a>Home</a></li>
+                <li><a>Your Ideas</a></li>
+                <li>
+                    <i class="fa-solid fa-user fa-xl"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="submit-section"
+             id="submit">
+        <div class="container">
+            <h2>Submit a New Game Idea</h2>
+            <form>
+                <textarea placeholder="Describe your game idea..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="ideas-section"
+             id="ideas">
+        <div class="container">
+            <h2>Submitted Ideas</h2>
+            <div class="search-bar d-flex justify-content-between flex-column flex-lg-row mb-1">
+                <div class="flex-grow-1 me-5 mb-2">
+                    <input type="text"
+                           id="search-input "
+                           class="me-5"
+                           placeholder="Search for ideas..."
+                           onkeyup="searchIdeas()"></div>
+
+                <div class="d-flex align-items-center mb-2">
+                    <div class="me-2">Sort By:
+                    </div>
+                    <select id="vote-filter"
+                            onchange="filterIdeas()">
+                        <option value="">Filter by Votes</option>
+                        <option value="upvote">Upvotes Only</option>
+                        <option value="downvote">Downvotes Only</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ideas-list">
+                <!-- Example of a Game Idea -->
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+                <div class="idea">
+                    <div class="idead-header">
+                        <div class="avatar"><i class="fa-solid fa-user fa-2xl"></i></div> <!-- Avatar Icon -->
+                        <div class="idea-rank">
+                            <span>#1</span>
+                        </div>
+                    </div>
+                    <p class="idea-description">A multiplayer space exploration game where players colonize planets.</p>
+                    <div class="votes">
+                        <span class="like-icon">
+                            <i class="fas fa-thumbs-up"></i> 120
+                        </span>
+                        <span class="unlike-icon">
+                            <i class="fas fa-thumbs-down"></i> 10
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Game Ideas Platform. All rights reserved.</p>
+    </footer>
+</div>
